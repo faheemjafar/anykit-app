@@ -3,13 +3,13 @@
 > A comprehensive, privacy-first collection of 160+ high-performance web utilities. Built with modern web standards and designed to run entirely in your browser.
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-FaheemJawfar%2Feverydaytab-181717?logo=github)](https://github.com/FaheemJawfar/everydaytab)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-faheemjafar%2Feverydaytab-181717?logo=github)](https://github.com/faheemjafar/everydaytab)
 [![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/faheemj)
 [![Next.js](https://img.shields.io/badge/Built%20with-Next.js%2016-black?logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?logo=typescript)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Styled%20with-Tailwind%20CSS-06B6D4?logo=tailwindcss)](https://tailwindcss.com)
 
-> Built and maintained solo by [@FaheemJawfar](https://github.com/FaheemJawfar).
+> Built and maintained solo by [@faheemjafar](https://github.com/faheemjafar).
 > If EverydayTab saves you time, [buy me a coffee ☕](https://ko-fi.com/faheemj/?amount=5) — it keeps the project free, ad-free, and actively developed.
 
 ## Features
@@ -61,7 +61,7 @@ EverydayTab provides **160+ utilities** across **9 categories**, all running cli
 
 ```bash
 # Clone the repository
-git clone https://github.com/FaheemJawfar/everydaytab.git
+git clone https://github.com/faheemjafar/everydaytab.git
 cd everydaytab
 
 # Install dependencies
@@ -173,11 +173,11 @@ EverydayTab is **free, ad-free, and 100% client-side**, built solo on nights and
 
 - ☕ **[Buy me a coffee on Ko-fi](https://ko-fi.com/faheemj/?amount=5)** — directly funds servers and new tools
 - ⭐ **Star the repo** on GitHub — biggest free signal of support
-- 🐛 **Report bugs or suggest tools** via [Issues](https://github.com/FaheemJawfar/everydaytab/issues)
+- 🐛 **Report bugs or suggest tools** via [Issues](https://github.com/faheemjafar/everydaytab/issues)
 - 📣 **Share** the project with anyone who'd find it useful
 
 Every coffee buys a weekend to ship something new instead of taking client work — thank you.
 
 ---
 
-Made with precision by [Faheem Jawfar](https://github.com/FaheemJawfar).
+Made with precision by [Faheem Jawfar](https://github.com/faheemjafar).

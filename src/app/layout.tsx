@@ -243,7 +243,7 @@ export default function RootLayout({
                         <li><Link href="/" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">All Tools <ArrowRight className="w-3 h-3" /></Link></li>
                         <li><Link href="/privacy" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">Privacy Policy <ArrowRight className="w-3 h-3" /></Link></li>
                         <li><Link href="/terms" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">Terms of Service <ArrowRight className="w-3 h-3" /></Link></li>
-                        <li><Link href="https://github.com/FaheemJawfar/everydaytab" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">Open Source GitHub <ArrowRight className="w-3 h-3" /></Link></li>
+                        <li><Link href="https://github.com/faheemjafar/everydaytab" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">Open Source GitHub <ArrowRight className="w-3 h-3" /></Link></li>
                       </ul>
                     </div>
                   </div>

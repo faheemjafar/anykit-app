@@ -26,7 +26,7 @@ export function Header() {
   }, []);
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/FaheemJawfar/everydaytab")
+    fetch("https://api.github.com/repos/faheemjafar/everydaytab")
       .then((res) => res.json())
       .then((data) => {
         if (typeof data.stargazers_count === "number") setStars(data.stargazers_count);
@@ -103,7 +103,7 @@ export function Header() {
               <span className="hidden md:inline">Sponsor</span>
             </a>
             <a
-              href="https://github.com/FaheemJawfar/everydaytab"
+              href="https://github.com/faheemjafar/everydaytab"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg bg-foreground text-background hover:bg-foreground/90 h-9 px-3 md:px-3.5 transition-colors font-medium text-xs"
