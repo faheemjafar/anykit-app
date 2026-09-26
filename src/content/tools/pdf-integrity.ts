@@ -30,7 +30,7 @@ const content: ToolContent = {
     {
       heading: "Metadata and privacy",
       paragraphs: [
-        "The Author and Creator fields often contain a person's name and the software they used, and the dates reveal when a document was really made. Before sharing a contract, résumé or report externally, check these fields here. If they need changing, most PDF editors and the Edit Bookmarks / Organize PDF tools on AnyKit rewrite the file, and dedicated metadata editors can blank the fields entirely.",
+        "The Author and Creator fields often contain a person's name and the software they used, and the dates reveal when a document was really made. Before sharing a contract, résumé or report externally, check these fields here. If they need changing, most PDF editors and the Edit Bookmarks / Organize PDF tools on EverydayTab rewrite the file, and dedicated metadata editors can blank the fields entirely.",
       ],
     },
   ],

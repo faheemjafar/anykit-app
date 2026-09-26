@@ -47,10 +47,10 @@ export function SupportPrompt() {
     // Detached clicks don't bubble to document, so we patch the prototype to
     // also fire our event whenever a programmatic download click happens.
     const proto = HTMLAnchorElement.prototype as HTMLAnchorElement & {
-      __anykitPatched?: boolean;
+      __everydaytabPatched?: boolean;
     };
     const originalClick = proto.click;
-    if (!proto.__anykitPatched) {
+    if (!proto.__everydaytabPatched) {
       proto.click = function patchedClick(this: HTMLAnchorElement) {
         try {
           // `download` attr present (even empty string) signals a download intent.
@@ -62,7 +62,7 @@ export function SupportPrompt() {
         }
         return originalClick.apply(this, arguments as unknown as []);
       };
-      proto.__anykitPatched = true;
+      proto.__everydaytabPatched = true;
     }
 
     window.addEventListener(SUPPORT_PROMPT_EVENT, handleEvent);
@@ -82,7 +82,7 @@ export function SupportPrompt() {
     <div
       data-support-prompt
       role="complementary"
-      aria-label="Support AnyKit"
+      aria-label="Support EverydayTab"
       className="fixed bottom-5 right-5 z-[90] w-[calc(100%-2.5rem)] sm:w-80 max-w-sm rounded-2xl border border-amber-500/20 bg-background/95 backdrop-blur-md shadow-xl shadow-black/10 p-4 animate-in slide-in-from-bottom-4 fade-in duration-300"
     >
       <div className="flex items-start gap-3">

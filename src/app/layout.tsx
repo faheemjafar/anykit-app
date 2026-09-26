@@ -16,13 +16,13 @@ import { StatCounter } from "@statcounter/nextjs";
 const WEBSITE_JSON_LD = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "AnyKit App",
-  url: "https://anykit.app",
+  name: "EverydayTab",
+  url: "https://everydaytab.com",
   potentialAction: {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate: "https://anykit.app/#search={search_term_string}",
+      urlTemplate: "https://everydaytab.com/#search={search_term_string}",
     },
     "query-input": "required name=search_term_string",
   },
@@ -40,13 +40,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://anykit.app";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://everydaytab.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "AnyKit App - 250+ Best Free Online Developer & Utility Tools",
-    template: "%s | AnyKit App",
+    default: "EverydayTab - 250+ Best Free Online Developer & Utility Tools",
+    template: "%s | EverydayTab",
   },
   description:
     "Best free collection of 250+ all-in-one online tools for developers, designers, students, and everyday tasks. JSON formatter, PDF tools, Base64 encoder, color converter, regex tester, QR code generator, and more. All browser-based — no sign-up required.",
@@ -115,9 +115,9 @@ export const metadata: Metadata = {
     "video converter",
     "video compressor",
   ],
-  authors: [{ name: "AnyKit App" }],
-  creator: "AnyKit App",
-  publisher: "AnyKit App",
+  authors: [{ name: "EverydayTab" }],
+  creator: "EverydayTab",
+  publisher: "EverydayTab",
   alternates: {
     canonical: "/",
   },
@@ -125,18 +125,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "/",
-    siteName: "AnyKit App",
-    title: "AnyKit App - 250+ Best Free Online Developer & Utility Tools",
+    siteName: "EverydayTab",
+    title: "EverydayTab - 250+ Best Free Online Developer & Utility Tools",
     description:
       "Best free collection of 250+ all-in-one online tools for developers, designers, students, and everyday tasks. All browser-based — no sign-up required.",
-    images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AnyKit App - 250+ Best Free Online Developer & Utility Tools",
+    title: "EverydayTab - 250+ Best Free Online Developer & Utility Tools",
     description:
       "Best free collection of 250+ all-in-one online tools for developers, designers, students, and everyday tasks. All browser-based — no sign-up required.",
-    images: ["/og-image.png"],
   },
   robots: {
     index: true,
@@ -152,7 +150,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "AnyKit",
+    title: "EverydayTab",
   },
   manifest: "/manifest.json",
 };
@@ -207,9 +205,9 @@ export default function RootLayout({
                     <div className="space-y-4 max-w-md">
                       <Link href="/" className="flex items-center gap-2 group">
                         <div className="flex items-center justify-center w-9 h-9 rounded-lg overflow-hidden ring-1 ring-border">
-                          <img src="/logo.svg" alt="AnyKit" className="w-full h-full" />
+                          <img src="/logo.svg" alt="EverydayTab" className="w-full h-full" />
                         </div>
-                        <span className="font-bold text-lg tracking-tight">AnyKit App</span>
+                        <span className="font-bold text-lg tracking-tight">EverydayTab</span>
                       </Link>
                       <p className="text-sm text-muted-foreground leading-relaxed">
                         A fast, privacy-first toolkit with 100+ browser-powered utilities built for developers, creators, and everyday workflows.
@@ -245,14 +243,14 @@ export default function RootLayout({
                         <li><Link href="/" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">All Tools <ArrowRight className="w-3 h-3" /></Link></li>
                         <li><Link href="/privacy" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">Privacy Policy <ArrowRight className="w-3 h-3" /></Link></li>
                         <li><Link href="/terms" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">Terms of Service <ArrowRight className="w-3 h-3" /></Link></li>
-                        <li><Link href="https://github.com/FaheemJawfar/anykit-app" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">Open Source GitHub <ArrowRight className="w-3 h-3" /></Link></li>
+                        <li><Link href="https://github.com/FaheemJawfar/everydaytab" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">Open Source GitHub <ArrowRight className="w-3 h-3" /></Link></li>
                       </ul>
                     </div>
                   </div>
 
                   <div className="pt-6 border-t border-border/60 flex flex-col md:flex-row items-center justify-between gap-4">
                     <p className="text-xs text-muted-foreground text-center md:text-left">
-                      © 2026 AnyKit App. All rights reserved.
+                      © 2026 EverydayTab. All rights reserved.
                     </p>
                     <div className="flex items-center gap-3 text-xs text-muted-foreground font-medium">
                       <span className="flex items-center gap-1.5 rounded-md border border-border px-2 py-1">

@@ -5,7 +5,7 @@ const content: ToolContent = {
   seoDescription:
     "Turn any title into a clean, lowercase, hyphenated URL slug instantly. Strips accents, punctuation and extra spaces. Free slug generator for blog posts, product pages and file names.",
   intro:
-    "Paste a headline, product name or sentence and get a URL-safe slug: lowercase, accents removed, punctuation stripped, spaces collapsed into single hyphens. \"How to Use AnyKit App for FREE!\" becomes how-to-use-anykit-app-for-free. Use it for blog and product URLs, file and folder names, HTML ids, CSS classes, database keys and anywhere you need a predictable, readable identifier.",
+    "Paste a headline, product name or sentence and get a URL-safe slug: lowercase, accents removed, punctuation stripped, spaces collapsed into single hyphens. \"How to Use EverydayTab for FREE!\" becomes how-to-use-everydaytab-for-free. Use it for blog and product URLs, file and folder names, HTML ids, CSS classes, database keys and anywhere you need a predictable, readable identifier.",
   sections: [
     {
       heading: "What makes a good slug",

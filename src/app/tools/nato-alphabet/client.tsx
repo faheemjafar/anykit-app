@@ -32,7 +32,7 @@ const NATO_ALPHABET: Record<string, string> = {
 };
 
 export default function TextToNATO() {
-  const [input, setInput] = useState("AnyKit App");
+  const [input, setInput] = useState("EverydayTab");
   const [copied, setCopied] = useState(false);
 
   const convertToNATO = (text: string) => {

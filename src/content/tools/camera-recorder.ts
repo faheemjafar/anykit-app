@@ -41,7 +41,7 @@ const content: ToolContent = {
   faqs: [
     {
       question: "Is my recording uploaded or stored online?",
-      answer: "No. Capture, encoding and saving all happen on your device. Nothing is sent to AnyKit or anyone else.",
+      answer: "No. Capture, encoding and saving all happen on your device. Nothing is sent to EverydayTab or anyone else.",
     },
     {
       question: "Why is the output WebM and not MP4?",

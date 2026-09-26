@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "AnyKit App - Professional Utility Tools",
-    short_name: "AnyKit",
+    name: "EverydayTab - Professional Utility Tools",
+    short_name: "EverydayTab",
     description: "A comprehensive collection of magical tools for your everyday tasks, designed to work offline.",
     start_url: "/",
     display: "standalone",

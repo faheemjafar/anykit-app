@@ -63,7 +63,7 @@ const content: ToolContent = {
     {
       question: "Are my files private?",
       answer:
-        "Yes. Conversion runs in your browser via FFmpeg compiled to WebAssembly; no audio is sent to AnyKit or anyone else.",
+        "Yes. Conversion runs in your browser via FFmpeg compiled to WebAssembly; no audio is sent to EverydayTab or anyone else.",
     },
   ],
   related: ["audio-resampler", "audio-compressor", "audio-metadata-editor", "extract-audio", "video-converter", "audio-trimmer"],

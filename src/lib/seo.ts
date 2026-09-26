@@ -3,7 +3,7 @@ import { getToolById, categories, tools } from "@/lib/tools";
 import { getToolContent } from "@/content/tools";
 import { getCategoryContent } from "@/content/categories";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://anykit.app";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://everydaytab.com";
 
 const CATEGORY_TITLE_SUFFIX: Record<string, string> = {
   pdf: "PDF Tool",
@@ -111,15 +111,13 @@ export function generateToolMetadata(toolId: string): Metadata {
       title,
       description,
       url: `${BASE_URL}${tool.path}`,
-      siteName: "AnyKit App",
+      siteName: "EverydayTab",
       type: "website",
-      images: ["/og-image.png"],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: ["/og-image.png"],
     },
   };
 }
@@ -144,8 +142,8 @@ export function generateToolJsonLd(toolId: string) {
       browserRequirements: "Requires JavaScript",
       isAccessibleForFree: true,
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-      isPartOf: { "@type": "WebSite", name: "AnyKit App", url: BASE_URL },
-      publisher: { "@type": "Organization", name: "AnyKit App", url: BASE_URL },
+      isPartOf: { "@type": "WebSite", name: "EverydayTab", url: BASE_URL },
+      publisher: { "@type": "Organization", name: "EverydayTab", url: BASE_URL },
     },
     {
       "@type": "BreadcrumbList",
@@ -226,7 +224,7 @@ export function generateCategoryJsonLd(categoryId: string) {
       name: `${category.name} - Free Online Tools`,
       description: content?.tagline ?? category.description,
       url,
-      isPartOf: { "@type": "WebSite", name: "AnyKit App", url: BASE_URL },
+      isPartOf: { "@type": "WebSite", name: "EverydayTab", url: BASE_URL },
       mainEntity: {
         "@type": "ItemList",
         numberOfItems: categoryTools.length,
@@ -269,8 +267,8 @@ export function generateCategoryMetadata(categoryId: string, toolCount: number):
 
   const content = getCategoryContent(categoryId);
   const description = content
-    ? `${content.tagline} Browse ${toolCount} free online ${category.name.toLowerCase()} on AnyKit — private, browser-based, no sign-up.`
-    : `${category.description}. Browse ${toolCount} free online ${category.name.toLowerCase()} on AnyKit. No sign-up required.`;
+    ? `${content.tagline} Browse ${toolCount} free online ${category.name.toLowerCase()} on EverydayTab — private, browser-based, no sign-up.`
+    : `${category.description}. Browse ${toolCount} free online ${category.name.toLowerCase()} on EverydayTab. No sign-up required.`;
 
   return {
     title: `${category.name} - ${toolCount} Free Online Tools`,
@@ -299,18 +297,16 @@ export function generateCategoryMetadata(categoryId: string, toolCount: number):
       },
     },
     openGraph: {
-      title: `${category.name} - ${toolCount} Free Online Tools | AnyKit`,
+      title: `${category.name} - ${toolCount} Free Online Tools | EverydayTab`,
       description,
       url: `/category/${categoryId}`,
-      siteName: "AnyKit App",
+      siteName: "EverydayTab",
       type: "website",
-      images: ["/og-image.png"],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${category.name} - ${toolCount} Free Online Tools | AnyKit`,
+      title: `${category.name} - ${toolCount} Free Online Tools | EverydayTab`,
       description,
-      images: ["/og-image.png"],
     },
   };
 }

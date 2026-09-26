@@ -21,7 +21,7 @@ const content: ToolContent = {
         "Making clips for Instagram Reels, TikTok, YouTube Shorts and X, which have strict maximum durations.",
         "Removing dead time at the start and end of a phone video.",
         "Extracting a demo or bug reproduction from a longer screen capture before sharing it.",
-        "Preparing a section to speed up, convert to GIF or mute with the other AnyKit video tools.",
+        "Preparing a section to speed up, convert to GIF or mute with the other EverydayTab video tools.",
       ],
     },
     {

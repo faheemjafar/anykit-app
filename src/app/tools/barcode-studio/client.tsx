@@ -32,7 +32,7 @@ const FORMATS = [
 ];
 
 export default function BarcodeStudio() {
-  const [value, setValue] = useState("ANYKIT-2026");
+  const [value, setValue] = useState("EVERYDAYTAB-2026");
   const [format, setFormat] = useState("CODE128");
   const [width, setWidth] = useState(2);
   const [height, setHeight] = useState(80);

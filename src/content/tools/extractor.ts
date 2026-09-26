@@ -59,7 +59,7 @@ const content: ToolContent = {
     },
     {
       question: "How do I create a ZIP file online?",
-      answer: "Use the File Compressor tool on AnyKit to bundle files into a ZIP archive, also entirely in your browser.",
+      answer: "Use the File Compressor tool on EverydayTab to bundle files into a ZIP archive, also entirely in your browser.",
     },
   ],
   related: ["compressor", "renamer", "base64-file", "pdf-integrity", "image-converter", "text-compressor"],

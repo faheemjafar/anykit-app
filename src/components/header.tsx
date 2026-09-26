@@ -26,7 +26,7 @@ export function Header() {
   }, []);
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/FaheemJawfar/anykit-app")
+    fetch("https://api.github.com/repos/FaheemJawfar/everydaytab")
       .then((res) => res.json())
       .then((data) => {
         if (typeof data.stargazers_count === "number") setStars(data.stargazers_count);
@@ -61,9 +61,9 @@ export function Header() {
             }}
           >
             <div className="flex items-center justify-center w-8 h-8 rounded-lg overflow-hidden ring-1 ring-primary/15">
-              <img src="/logo.svg" alt="AnyKit" className="w-full h-full pointer-events-none" draggable="false" />
+              <img src="/logo.svg" alt="EverydayTab" className="w-full h-full pointer-events-none" draggable="false" />
             </div>
-            <span className="font-bold text-base tracking-tight">AnyKit App</span>
+            <span className="font-bold text-base tracking-tight">EverydayTab</span>
           </Link>
 
           {/* Search trigger */}
@@ -97,13 +97,13 @@ export function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-1.5 rounded-lg h-9 px-3 bg-amber-500/10 hover:bg-amber-500/20 text-amber-700 dark:text-amber-400 ring-1 ring-amber-500/25 transition-colors font-semibold text-xs"
-              aria-label="Support AnyKit on Ko-fi"
+              aria-label="Support EverydayTab on Ko-fi"
             >
               <Heart className="w-3.5 h-3.5 fill-current" />
               <span className="hidden md:inline">Sponsor</span>
             </a>
             <a
-              href="https://github.com/FaheemJawfar/anykit-app"
+              href="https://github.com/FaheemJawfar/everydaytab"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg bg-foreground text-background hover:bg-foreground/90 h-9 px-3 md:px-3.5 transition-colors font-medium text-xs"

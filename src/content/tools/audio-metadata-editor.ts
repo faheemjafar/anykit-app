@@ -31,7 +31,7 @@ const content: ToolContent = {
         "For podcasts and audiobooks, put the series in Album and the episode or chapter in Title so they sort correctly.",
         "Keep Genre consistent — most players list every distinct spelling as a separate genre.",
         "Rename the file to match the tags with the Batch File Renamer for a clean folder view.",
-        "Tags are preserved when you run the file through the other AnyKit audio tools.",
+        "Tags are preserved when you run the file through the other EverydayTab audio tools.",
       ],
     },
   ],

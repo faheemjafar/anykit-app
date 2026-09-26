@@ -1,6 +1,6 @@
 {
-  "name": "AnyKit App",
-  "short_name": "AnyKit",
+  "name": "EverydayTab",
+  "short_name": "EverydayTab",
   "description": "160+ free online developer & utility tools. Privacy-first, browser-based, no sign-up required.",
   "start_url": "/",
   "display": "standalone",

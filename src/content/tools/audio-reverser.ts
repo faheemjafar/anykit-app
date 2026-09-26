@@ -56,7 +56,7 @@ const content: ToolContent = {
     {
       question: "Is my recording kept private?",
       answer:
-        "Yes. The whole process runs in your browser; the file is never sent to AnyKit or any third-party server.",
+        "Yes. The whole process runs in your browser; the file is never sent to EverydayTab or any third-party server.",
     },
   ],
   related: ["audio-trimmer", "speed-changer", "fade-in-out", "audio-effects-studio", "audio-merger", "extract-audio"],

@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import { getToolById, Tool } from "@/lib/tools";
 
 // Custom event to synchronize favorites and recents across components
-const FAVORITES_CHANGED_EVENT = "anykit_favorites_changed";
-const RECENTS_CHANGED_EVENT = "anykit_recents_changed";
+const FAVORITES_CHANGED_EVENT = "everydaytab_favorites_changed";
+const RECENTS_CHANGED_EVENT = "everydaytab_recents_changed";
 
 export function usePersistentTools() {
   const [favorites, setFavorites] = useState<string[]>([]);
@@ -16,7 +16,7 @@ export function usePersistentTools() {
     setMounted(true);
     
     // Load initial values from localStorage
-    const storedFavs = localStorage.getItem("anykit_favorites");
+    const storedFavs = localStorage.getItem("everydaytab_favorites");
     if (storedFavs) {
       try {
         setFavorites(JSON.parse(storedFavs));
@@ -25,7 +25,7 @@ export function usePersistentTools() {
       }
     }
 
-    const storedRecents = localStorage.getItem("anykit_recents");
+    const storedRecents = localStorage.getItem("everydaytab_recents");
     if (storedRecents) {
       try {
         setRecents(JSON.parse(storedRecents));
@@ -36,12 +36,12 @@ export function usePersistentTools() {
 
     // Event listeners for multi-component syncing
     const handleFavsChange = () => {
-      const updated = localStorage.getItem("anykit_favorites");
+      const updated = localStorage.getItem("everydaytab_favorites");
       setFavorites(updated !== null ? JSON.parse(updated) : []);
     };
 
     const handleRecentsChange = () => {
-      const updated = localStorage.getItem("anykit_recents");
+      const updated = localStorage.getItem("everydaytab_recents");
       setRecents(updated !== null ? JSON.parse(updated) : []);
     };
 
@@ -56,7 +56,7 @@ export function usePersistentTools() {
 
   const toggleFavorite = (toolId: string) => {
     let currentFavs: string[] = [];
-    const stored = localStorage.getItem("anykit_favorites");
+    const stored = localStorage.getItem("everydaytab_favorites");
     if (stored) {
       try {
         currentFavs = JSON.parse(stored);
@@ -72,13 +72,13 @@ export function usePersistentTools() {
       nextFavs = [...currentFavs, toolId];
     }
     setFavorites(nextFavs);
-    localStorage.setItem("anykit_favorites", JSON.stringify(nextFavs));
+    localStorage.setItem("everydaytab_favorites", JSON.stringify(nextFavs));
     window.dispatchEvent(new CustomEvent(FAVORITES_CHANGED_EVENT));
   };
 
   const addRecent = (toolId: string) => {
     let currentRecents: string[] = [];
-    const stored = localStorage.getItem("anykit_recents");
+    const stored = localStorage.getItem("everydaytab_recents");
     if (stored) {
       try {
         currentRecents = JSON.parse(stored);
@@ -91,13 +91,13 @@ export function usePersistentTools() {
     const filtered = currentRecents.filter((id) => id !== toolId);
     const nextRecents = [toolId, ...filtered].slice(0, 5);
     setRecents(nextRecents);
-    localStorage.setItem("anykit_recents", JSON.stringify(nextRecents));
+    localStorage.setItem("everydaytab_recents", JSON.stringify(nextRecents));
     window.dispatchEvent(new CustomEvent(RECENTS_CHANGED_EVENT));
   };
 
   const clearRecents = () => {
     setRecents([]);
-    localStorage.removeItem("anykit_recents");
+    localStorage.removeItem("everydaytab_recents");
     window.dispatchEvent(new CustomEvent(RECENTS_CHANGED_EVENT));
   };
 

@@ -2,7 +2,7 @@ import HomeClient from "./home-client";
 import { HomeLanding, HOME_FAQS } from "@/components/home-landing";
 import { JsonLd } from "@/components/json-ld";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://anykit.app";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://everydaytab.com";
 
 export default function HomePage() {
   const faqJsonLd = {

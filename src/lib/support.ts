@@ -8,9 +8,9 @@ export const SUPPORT_CONFIG = {
 
 export const KOFI_URL = `https://ko-fi.com/${SUPPORT_CONFIG.kofiUsername}`;
 
-export const SUPPORT_PROMPT_EVENT = "anykit:support-prompt";
+export const SUPPORT_PROMPT_EVENT = "everydaytab:support-prompt";
 
-const SHOWN_KEY = "anykit:support-prompt:lastShownAt";
+const SHOWN_KEY = "everydaytab:support-prompt:lastShownAt";
 // Don't pester users — at most once per 3 days.
 const COOLDOWN_MS = 3 * 24 * 60 * 60 * 1000;
 

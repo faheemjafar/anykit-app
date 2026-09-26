@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "AnyKit App - 100+ Free Online Developer & Utility Tools";
+export const alt = "EverydayTab - 100+ Free Online Developer & Utility Tools";
 export const size = {
   width: 1200,
   height: 630,
@@ -73,7 +73,7 @@ export default async function Image() {
               fontWeight: 900,
             }}
           >
-            A
+            E
           </div>
           <span
             style={{
@@ -83,7 +83,7 @@ export default async function Image() {
               letterSpacing: "-1px",
             }}
           >
-            AnyKit App
+            EverydayTab
           </span>
         </div>
 
@@ -150,7 +150,7 @@ export default async function Image() {
             display: "flex",
           }}
         >
-          anykit.app — No sign-up required
+          everydaytab.com — No sign-up required
         </div>
       </div>
     ),

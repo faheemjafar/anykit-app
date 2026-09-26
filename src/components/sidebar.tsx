@@ -56,12 +56,12 @@ export function Sidebar() {
           <div className="flex items-center justify-center w-8 h-8 rounded-lg overflow-hidden ring-1 ring-primary/15">
             <img
               src="/logo.svg"
-              alt="AnyKit"
+              alt="EverydayTab"
               className="w-full h-full pointer-events-none"
               draggable="false"
             />
           </div>
-          <span className="font-bold text-base leading-none tracking-tight">AnyKit App</span>
+          <span className="font-bold text-base leading-none tracking-tight">EverydayTab</span>
         </Link>
       </div>
 
@@ -239,7 +239,7 @@ export function Sidebar() {
           <div className="flex items-center gap-2">
             <Heart className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
             <p className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
-              Support AnyKit
+              Support EverydayTab
             </p>
           </div>
           <p className="text-[11px] text-muted-foreground leading-relaxed">

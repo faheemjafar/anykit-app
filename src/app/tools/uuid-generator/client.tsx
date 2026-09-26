@@ -66,7 +66,7 @@ export default function UuidGenerator() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `anykit-uuids-${Date.now()}.txt`;
+    a.download = `everydaytab-uuids-${Date.now()}.txt`;
     a.click();
     URL.revokeObjectURL(url);
   };

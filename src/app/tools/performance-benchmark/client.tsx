@@ -196,7 +196,7 @@ export default function PerformanceBenchmark() {
               <h3 className="font-bold text-xs uppercase tracking-wider text-primary">Benchmark.js Engine</h3>
             </div>
             <p className="text-[11px] text-muted-foreground leading-relaxed">
-              AnyKit App uses the industry-standard Benchmark.js library to provide statistically significant results. It executes each snippet multiple times to account for background processes and JIT optimization.
+              EverydayTab uses the industry-standard Benchmark.js library to provide statistically significant results. It executes each snippet multiple times to account for background processes and JIT optimization.
             </p>
           </div>
 

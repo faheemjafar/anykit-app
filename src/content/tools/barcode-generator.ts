@@ -52,7 +52,7 @@ const content: ToolContent = {
     {
       question: "Can I generate many barcodes at once?",
       answer:
-        "This tool creates one barcode at a time with full styling control. For batch generation from a list of values, sequential numbering and SVG export, use the Barcode Studio tool on AnyKit.",
+        "This tool creates one barcode at a time with full styling control. For batch generation from a list of values, sequential numbering and SVG export, use the Barcode Studio tool on EverydayTab.",
     },
     {
       question: "What resolution is the downloaded image?",

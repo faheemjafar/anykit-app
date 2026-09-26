@@ -22,7 +22,7 @@ import DOMPurify from "dompurify";
 import { ToolLayout } from "@/components/tool-layout";
 
 export default function MarkdownToHTML() {
-  const [input, setInput] = useState("# Welcome to AnyKit App\n\nThis is a **professional** Markdown to HTML converter.\n\n### Features:\n- Live Preview\n- XSS Sanitization\n- Code Highlighting support\n\n```javascript\nconsole.log('Hello World');\n```");
+  const [input, setInput] = useState("# Welcome to EverydayTab\n\nThis is a **professional** Markdown to HTML converter.\n\n### Features:\n- Live Preview\n- XSS Sanitization\n- Code Highlighting support\n\n```javascript\nconsole.log('Hello World');\n```");
   const [html, setHtml] = useState("");
   const [previewMode, setPreviewMode] = useState<"preview" | "code">("preview");
   const [copied, setCopied] = useState(false);

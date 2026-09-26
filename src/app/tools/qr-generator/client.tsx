@@ -22,7 +22,7 @@ import {
 import { cn } from "@/lib/utils";
 
 export default function QrGenerator() {
-  const [text, setText] = useState("https://anykit.app");
+  const [text, setText] = useState("https://everydaytab.com");
   const [size, setSize] = useState([320]);
   const [fgColor, setFgColor] = useState("#000000");
   const [bgColor, setBgColor] = useState("#ffffff");
@@ -49,7 +49,7 @@ export default function QrGenerator() {
       const pngFile = canvas.toDataURL("image/png");
       const downloadLink = document.createElement("a");
       downloadLink.href = pngFile;
-      downloadLink.download = `anykit-qr-${Date.now()}.png`;
+      downloadLink.download = `everydaytab-qr-${Date.now()}.png`;
       downloadLink.click();
     };
 

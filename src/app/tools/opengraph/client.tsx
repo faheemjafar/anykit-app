@@ -39,7 +39,7 @@ export default function OpenGraphGenerator() {
   useEffect(() => { generateTags(); }, [formData]);
 
   const copyToClipboard = async () => { try { await navigator.clipboard.writeText(generatedTags); setCopied(true); setTimeout(() => setCopied(false), 2000); } catch (err) { console.error(err); } };
-  const loadSampleData = () => { setFormData({ title: "How to Create Amazing Open Graph Tags", description: "Learn how to create compelling Open Graph meta tags that boost your social media engagement and click-through rates.", image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200&h=630&fit=crop", url: "https://utilzy.com/seo-tools/opengraph", siteName: "Utilzy", type: "article", locale: "en_US", imageWidth: "1200", imageHeight: "630", imageAlt: "Open Graph tags tutorial banner", twitterCard: "summary_large_image", twitterSite: "utilzy_app", twitterCreator: "utilzy_app" }); };
+  const loadSampleData = () => { setFormData({ title: "How to Create Amazing Open Graph Tags", description: "Learn how to create compelling Open Graph meta tags that boost your social media engagement and click-through rates.", image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200&h=630&fit=crop", url: "https://everydaytab.com/seo-tools/opengraph", siteName: "EverydayTab", type: "article", locale: "en_US", imageWidth: "1200", imageHeight: "630", imageAlt: "Open Graph tags tutorial banner", twitterCard: "summary_large_image", twitterSite: "everydaytab", twitterCreator: "everydaytab" }); };
 
   return (
     <ToolLayout toolId="opengraph">

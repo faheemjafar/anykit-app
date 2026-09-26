@@ -28,12 +28,12 @@ const HOME_FAQS = [
   {
     question: "Are the tools really free?",
     answer:
-      "Yes. Every tool on AnyKit is free to use with no account, no trial period, no watermarks and no usage caps.",
+      "Yes. Every tool on EverydayTab is free to use with no account, no trial period, no watermarks and no usage caps.",
   },
   {
     question: "Are my files uploaded to a server?",
     answer:
-      "No. Files and text are processed inside your browser with JavaScript and WebAssembly. Nothing is transmitted to AnyKit or any third party, which is why there are no file-size limits and nothing to delete afterwards.",
+      "No. Files and text are processed inside your browser with JavaScript and WebAssembly. Nothing is transmitted to EverydayTab or any third party, which is why there are no file-size limits and nothing to delete afterwards.",
   },
   {
     question: "Do the tools work offline?",
@@ -57,7 +57,7 @@ export function HomeLanding() {
           Free online tools that run in your browser
         </h1>
         <p className="text-sm text-muted-foreground max-w-3xl leading-relaxed">
-          AnyKit is a collection of {tools.length} free utilities for developers, designers, students and everyday
+          EverydayTab is a collection of {tools.length} free utilities for developers, designers, students and everyday
           work — PDF, image, audio and video editors, converters, calculators, generators, text and SEO tools —
           organised into {categories.length} categories. Everything runs locally on your device: no sign-up, no
           uploads, no watermarks and no file-size limits.
@@ -133,10 +133,10 @@ export function HomeLanding() {
 
       <section className="pt-6 border-t border-border/60 space-y-6">
         <div className="space-y-3 max-w-3xl">
-          <h2 className="text-lg font-bold tracking-tight">Why AnyKit</h2>
+          <h2 className="text-lg font-bold tracking-tight">Why EverydayTab</h2>
           <p className="text-sm text-muted-foreground leading-relaxed">
             Most online tools upload your file to a server, process it there, and hand back a link — which means
-            waiting in a queue, hitting size limits, and trusting a stranger with your documents. AnyKit takes the
+            waiting in a queue, hitting size limits, and trusting a stranger with your documents. EverydayTab takes the
             opposite approach. Every tool is built with browser technologies (JavaScript, WebAssembly, the Canvas
             and Web Audio APIs, FFmpeg and pdf-lib compiled to run client-side) so the work happens on your own
             machine. Your PDFs, photos, recordings and pasted text never leave your device.

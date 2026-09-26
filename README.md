@@ -1,20 +1,20 @@
-# AnyKit App
+# EverydayTab
 
 > A comprehensive, privacy-first collection of 160+ high-performance web utilities. Built with modern web standards and designed to run entirely in your browser.
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-FaheemJawfar%2Fanykit--app-181717?logo=github)](https://github.com/FaheemJawfar/anykit-app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-FaheemJawfar%2Feverydaytab-181717?logo=github)](https://github.com/FaheemJawfar/everydaytab)
 [![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/faheemj)
 [![Next.js](https://img.shields.io/badge/Built%20with-Next.js%2016-black?logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?logo=typescript)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Styled%20with-Tailwind%20CSS-06B6D4?logo=tailwindcss)](https://tailwindcss.com)
 
 > Built and maintained solo by [@FaheemJawfar](https://github.com/FaheemJawfar).
-> If AnyKit saves you time, [buy me a coffee ☕](https://ko-fi.com/faheemj/?amount=5) — it keeps the project free, ad-free, and actively developed.
+> If EverydayTab saves you time, [buy me a coffee ☕](https://ko-fi.com/faheemj/?amount=5) — it keeps the project free, ad-free, and actively developed.
 
 ## Features
 
-AnyKit App provides **160+ utilities** across **9 categories**, all running client-side:
+EverydayTab provides **160+ utilities** across **9 categories**, all running client-side:
 
 - **PDF Tools** — Merge, split, rotate, compress, sign, watermark, crop, extract text, edit bookmarks, add page numbers, remove blank pages, apply scanner effects, adjust colors, and more.
 - **Developer Tools** — JSON formatters, validators, and converters; YAML/TOML/XML tools; GraphQL utilities; SQL prettifiers; cURL converters; JWT generators & parsers; regex testers; cron utilities; and cheat sheets.
@@ -61,8 +61,8 @@ AnyKit App provides **160+ utilities** across **9 categories**, all running clie
 
 ```bash
 # Clone the repository
-git clone https://github.com/FaheemJawfar/anykit-app.git
-cd anykit-app
+git clone https://github.com/FaheemJawfar/everydaytab.git
+cd everydaytab
 
 # Install dependencies
 npm install
@@ -82,7 +82,7 @@ npm run build
 ## Project Structure
 
 ```
-anykit-app/
+everydaytab/
 ├── src/
 │   ├── app/
 │   │   ├── tools/           # Individual tool pages
@@ -169,11 +169,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Support
 
-AnyKit App is **free, ad-free, and 100% client-side**, built solo on nights and weekends. If it saves you time, here's how to keep it going:
+EverydayTab is **free, ad-free, and 100% client-side**, built solo on nights and weekends. If it saves you time, here's how to keep it going:
 
 - ☕ **[Buy me a coffee on Ko-fi](https://ko-fi.com/faheemj/?amount=5)** — directly funds servers and new tools
 - ⭐ **Star the repo** on GitHub — biggest free signal of support
-- 🐛 **Report bugs or suggest tools** via [Issues](https://github.com/FaheemJawfar/anykit-app/issues)
+- 🐛 **Report bugs or suggest tools** via [Issues](https://github.com/FaheemJawfar/everydaytab/issues)
 - 📣 **Share** the project with anyone who'd find it useful
 
 Every coffee buys a weekend to ship something new instead of taking client work — thank you.

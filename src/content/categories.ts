@@ -10,19 +10,19 @@ export interface CategoryContent {
 
 const shared = {
   privacy:
-    "Every tool in this category runs inside your browser. Files and text are processed on your own device with JavaScript and WebAssembly and are never uploaded to AnyKit or any third-party server — which also means there are no queues, no file size caps set by a server, and nothing to delete afterwards.",
+    "Every tool in this category runs inside your browser. Files and text are processed on your own device with JavaScript and WebAssembly and are never uploaded to EverydayTab or any third-party server — which also means there are no queues, no file size caps set by a server, and nothing to delete afterwards.",
 };
 
 export const categoryContent: Record<string, CategoryContent> = {
   pdf: {
     tagline: "Merge, split, compress, crop and edit PDFs without uploading them anywhere.",
     intro: [
-      "AnyKit's PDF tools cover the everyday jobs that usually push people towards a paid desktop suite: combining several files into one, pulling out or deleting pages, rotating scans, adding page numbers, headers, footers and watermarks, cropping margins, inverting colours for night reading, and checking whether a file is damaged.",
+      "EverydayTab's PDF tools cover the everyday jobs that usually push people towards a paid desktop suite: combining several files into one, pulling out or deleting pages, rotating scans, adding page numbers, headers, footers and watermarks, cropping margins, inverting colours for night reading, and checking whether a file is damaged.",
       shared.privacy,
     ],
     featured: ["merge-pdf", "split-pdf", "compress-pdf", "crop-pdf", "rotate-pdf", "delete-pages", "jpg-to-pdf", "page-numbers"],
     faqs: [
-      { question: "Are these PDF tools really free?", answer: "Yes — every tool is free with no page limits, no watermark and no account. They are funded by the wider AnyKit site rather than by upsells." },
+      { question: "Are these PDF tools really free?", answer: "Yes — every tool is free with no page limits, no watermark and no account. They are funded by the wider EverydayTab site rather than by upsells." },
       { question: "Is it safe to use with confidential documents?", answer: "The PDF never leaves your device; it is opened and rewritten in your browser using the pdf-lib and PDF.js libraries. Close the tab and nothing remains." },
       { question: "Can I edit the text inside a PDF?", answer: "These tools work on the page level — combining, splitting, cropping, stamping and re-ordering. For rewriting body text you still need a dedicated PDF editor, though PDF to Text lets you extract the content for editing elsewhere." },
     ],

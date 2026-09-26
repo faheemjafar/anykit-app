@@ -31,7 +31,7 @@ import * as OTPAuth from "otpauth";
 export default function OTPGenerator() {
   const [secret, setSecret] = useState("JBSWY3DPEHPK3PXP");
   const [showSecret, setShowSecret] = useState(false);
-  const [issuer, setIssuer] = useState("AnyKit App");
+  const [issuer, setIssuer] = useState("EverydayTab");
   const [label, setLabel] = useState("user@example.com");
   const [token, setToken] = useState("");
   const [timeLeft, setTimeLeft] = useState(30);

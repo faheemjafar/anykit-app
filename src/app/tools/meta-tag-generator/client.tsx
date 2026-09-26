@@ -24,11 +24,11 @@ import { cn } from "@/lib/utils";
 
 export default function MetaTagGenerator() {
   const [tags, setTags] = useState({
-    title: "AnyKit App - The Ultimate Utility Suite",
+    title: "EverydayTab - The Ultimate Utility Suite",
     description: "All the professional tools you need in one sleek application. Fast, secure, and entirely client-side.",
-    url: "https://anykit.com",
-    image: "https://anykit.com/og-image.png",
-    twitterHandle: "@anykit_tools"
+    url: "https://everydaytab.com",
+    image: "https://everydaytab.com/og-image.png",
+    twitterHandle: "@everydaytab_tools"
   });
   const [copied, setCopied] = useState(false);
 

@@ -107,7 +107,7 @@ export default function JSONCSVConverter() {
           </div>
           <CardContent className="p-0 flex-1 relative">
             <Textarea
-              placeholder={mode === "json-to-csv" ? '[\n  {"id": 1, "name": "AnyKit App"},\n  {"id": 2, "name": "Tools"}\n]' : 'id,name\n1,AnyKit App\n2,Tools'}
+              placeholder={mode === "json-to-csv" ? '[\n  {"id": 1, "name": "EverydayTab"},\n  {"id": 2, "name": "Tools"}\n]' : 'id,name\n1,EverydayTab\n2,Tools'}
               value={input}
               onChange={(e) => process(e.target.value, mode)}
               className="w-full h-full min-h-[400px] p-8 bg-transparent border-none focus-visible:ring-0 resize-none font-mono text-sm leading-relaxed"

@@ -18,7 +18,7 @@ import { usePersistentTools } from "@/hooks/use-persistent-tools";
 import { Search, Sparkles, Star, History, ArrowRight } from "lucide-react";
 
 // Global event to open/close command palette programmatically
-export const CMD_PALETTE_EVENT = "anykit_toggle_cmd_palette";
+export const CMD_PALETTE_EVENT = "everydaytab_toggle_cmd_palette";
 
 export function CommandPalette() {
   const [open, setOpen] = useState(false);
@@ -66,7 +66,7 @@ export function CommandPalette() {
     <CommandDialog
       open={open}
       onOpenChange={setOpen}
-      title="Search AnyKit Tools"
+      title="Search EverydayTab Tools"
       description="Type a tool name, tag, or category to quickly open any tool instantly."
       className="max-w-2xl border border-border shadow-xl rounded-xl overflow-hidden bg-popover"
     >

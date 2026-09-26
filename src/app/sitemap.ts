@@ -4,7 +4,7 @@ import { CANONICAL_TOOL } from "@/lib/seo";
 import { execFileSync } from "child_process";
 import path from "path";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://anykit.app";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://everydaytab.com";
 
 // Stable fallback so lastmod never silently becomes "now" on every deploy.
 const FALLBACK_DATE = new Date("2026-08-19T00:00:00Z");

@@ -25,7 +25,7 @@ import { cn } from "@/lib/utils";
 export default function RegexTester() {
   const [regex, setRegex] = useState("([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-zA-Z0-9._-]+)");
   const [flags, setFlags] = useState("g");
-  const [testText, setTestText] = useState("Contact us at support@anykit.com or hello@example.org for more info.");
+  const [testText, setTestText] = useState("Contact us at support@everydaytab.com or hello@example.org for more info.");
   const [matches, setMatches] = useState<any[]>([]);
   const [error, setError] = useState<string | null>(null);
 

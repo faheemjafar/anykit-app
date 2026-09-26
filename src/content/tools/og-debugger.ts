@@ -58,7 +58,7 @@ const content: ToolContent = {
     },
     {
       question: "How do I generate Open Graph tags for my site?",
-      answer: "Use the Open Graph Generator or Meta Tag Generator on AnyKit to produce a complete, correctly formatted tag block to paste into your <head>.",
+      answer: "Use the Open Graph Generator or Meta Tag Generator on EverydayTab to produce a complete, correctly formatted tag block to paste into your <head>.",
     },
   ],
   related: ["opengraph", "meta-tag-generator", "faq-schema", "sitemap", "robots", "url-parser"],

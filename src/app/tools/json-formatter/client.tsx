@@ -56,7 +56,7 @@ export default function JsonFormatter() {
 
   const loadExample = () => {
     const example = {
-      name: "AnyKit App",
+      name: "EverydayTab",
       version: "1.0.0",
       features: ["Security", "Fast", "Private"],
       metadata: {
@@ -74,7 +74,7 @@ export default function JsonFormatter() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `anykit-formatted-${Date.now()}.json`;
+    a.download = `everydaytab-formatted-${Date.now()}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -92,7 +92,7 @@ export default function JsonFormatter() {
                 <div className="w-3 h-3 rounded-full bg-green-500/20 border border-green-500/20" />
               </div>
               <div className="h-4 w-px bg-border/60 mx-1" />
-              <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground">AnyKit App Editor</span>
+              <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground">EverydayTab Editor</span>
             </div>
             <div className="flex items-center gap-2">
               {error ? (

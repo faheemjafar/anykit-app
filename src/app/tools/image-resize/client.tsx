@@ -80,7 +80,7 @@ export default function ImageResize() {
     if (!image) return;
     const link = document.createElement("a");
     link.href = image;
-    link.download = `anykit-resized-${Date.now()}.png`;
+    link.download = `everydaytab-resized-${Date.now()}.png`;
     link.click();
   };
 

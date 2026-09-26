@@ -64,7 +64,7 @@ const content: ToolContent = {
     {
       question: "Is my video private?",
       answer:
-        "Yes. The video is decoded, re-timed and re-encoded entirely on your device using FFmpeg compiled to WebAssembly. It is never transmitted to AnyKit or any third party.",
+        "Yes. The video is decoded, re-timed and re-encoded entirely on your device using FFmpeg compiled to WebAssembly. It is never transmitted to EverydayTab or any third party.",
     },
   ],
   related: ["video-trimmer", "video-merger", "video-to-gif", "video-compressor", "speed-changer", "video-converter"],
